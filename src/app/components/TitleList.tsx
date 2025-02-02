@@ -9,8 +9,8 @@ export default function TitleList({ titles }: { titles: string[] }) {
     isMobile = window.matchMedia("(max-width: 1024px)").matches;
   }
   // Define arrays of colors for text and background
-  const textColors = ["text-orange-500", "text-pink-500", "text-purple-500"];
-  const bgColors = ["bg-orange-950", "bg-pink-950", "bg-purple-950"];
+  const textColors = ["text-[#5172DE]", "text-[#5172DE]", "text-purple-500"];
+  const bgColors = ["bg-blue-700", "bg-blue-700", "bg-purple-950"];
 
   return (
     <ul className="flex flex-wrap gap-2 w-full justify-center lg:justify-start mt-6">
@@ -24,7 +24,7 @@ export default function TitleList({ titles }: { titles: string[] }) {
           }
           initial="hidden"
           animate="visible"
-          className={`text-xs lg:text-[0.6rem] xl:text-xs font-bold ${
+          className={`text-xs bg-opacity-20 lg:text-[0.6rem] xl:text-xs font-medium border border-[#5172DE] ${
             textColors[index % textColors.length]
           } ${
             bgColors[index % bgColors.length]

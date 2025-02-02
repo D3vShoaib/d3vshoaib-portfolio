@@ -67,7 +67,10 @@ export default function RootLayout({
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <meta name="apple-mobile-web-app-title" content="d3vshoaib.dev" />
+        <meta
+          name="apple-mobile-web-app-title"
+          content="d3vshoaib.netlify.app"
+        />
         <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="alternate"

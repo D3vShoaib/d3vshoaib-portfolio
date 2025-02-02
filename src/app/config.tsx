@@ -45,7 +45,7 @@ export const siteConfig = {
     "Shoaib Ahmad is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Shoaib creates digital solutions that are both functional and aesthetically pleasing.",
   keywords:
     "Shoaib Ahmad, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-  url: "https://d3vshoaib.dev",
+  url: "https://d3vshoaib.netlify.app",
   taglines: [
     "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
     "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
@@ -102,11 +102,12 @@ export const siteConfig = {
       },
     ],
     aboutMe: `
-            <p>
-                Hi! I'm Shoaib, a <strong>full-stack developer</strong> who started coding in <strong>2023</strong>. Since then, I've built <strong>streaming platforms</strong>, <strong>blogs</strong>, and <strong>e-commerce sites</strong>. Whether it’s front-end finesse or back-end logic, I love bringing ideas to life on the web.
+            <p> 
+                Hi, I'm Shoaib. I've been building web applications for the last 1+ Years. I've worked with startups, multiple businesses, and large enterprises to build and scale their web applications. Interested in many tech-domain, I prefer to call myself a problem solver. :)
             </p>
+
             <p>
-                When I’m not coding, you’ll find me reading Manga/Novels <strong>VinlandSaga</strong> || <strong>RevernedInsanity</strong>, ricing my new FavDistro, Let's connect—I'd love to help with your next <strong>website</strong> or <strong>API</strong> project!
+                When I’m not coding, you’ll find me reading Manga/Novels <strong>VinlandSaga</strong> || <strong>RevernedInsanity</strong>, ricing my new Fav Linux distro, Let's connect—I'd love to help with <strong>website</strong> or <strong>API</strong> project!
             </p>
         `,
     experiences: [
@@ -150,7 +151,7 @@ export const siteConfig = {
             name: "TypeScript",
           },
         ],
-        link: "https://d3vshoaib.dev",
+        link: "https://d3vshoaib.netlify.app",
       },
       {
         title: "Genzify AI",
