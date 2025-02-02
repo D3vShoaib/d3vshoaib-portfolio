@@ -9,7 +9,7 @@ export default function TitleList({ titles }: { titles: string[] }) {
     isMobile = window.matchMedia("(max-width: 1024px)").matches;
   }
   // Define arrays of colors for text and background
-  const textColors = ["text-[#5172DE]", "text-[#5172DE]", "text-purple-500"];
+  const textColors = ["text-[#6385f2]", "text-[#6385f2]", "text-purple-500"];
   const bgColors = ["bg-blue-700", "bg-blue-700", "bg-purple-950"];
 
   return (
@@ -24,7 +24,7 @@ export default function TitleList({ titles }: { titles: string[] }) {
           }
           initial="hidden"
           animate="visible"
-          className={`text-xs bg-opacity-20 lg:text-[0.6rem] xl:text-xs font-medium border border-[#5172DE] ${
+          className={`text-xs bg-opacity-20 lg:text-[0.6rem] xl:text-xs font-medium border border-[#6385f2] ${
             textColors[index % textColors.length]
           } ${
             bgColors[index % bgColors.length]
