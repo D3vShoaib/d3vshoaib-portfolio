@@ -20,9 +20,9 @@ export default function HeroTitle() {
         className="text-lg sm:text-xl md:text-2xl font-medium flex items-center w-full justify-center lg:justify-start"
       >
         <Image
-          src="/logox.png"
+          src="/127685413.jpg"
           alt="Shoaib Ahmad Portfolio Logo"
-          className="w-7 h-7 mr-1 rounded-md"
+          className="w-7 h-7 mr-1 rounded-full"
           width={28}
           height={28}
         />

@@ -67,7 +67,7 @@ export default function RootLayout({
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
-        <meta name="apple-mobile-web-app-title" content="AlvinChang.dev" />
+        <meta name="apple-mobile-web-app-title" content="d3vshoaib.dev" />
         <link rel="manifest" href="/site.webmanifest" />
         <link
           rel="alternate"

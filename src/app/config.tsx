@@ -45,13 +45,17 @@ export const siteConfig = {
     "Shoaib Ahmad is a web developer who builds scalable, user-centric applications using Next.js, WordPress, and other frameworks. With a focus on performance, accessibility, and clean code, Shoaib creates digital solutions that are both functional and aesthetically pleasing.",
   keywords:
     "Shoaib Ahmad, full-stack developer, web development, Next.js, WordPress, React, Node.js, scalable applications, clean code",
-  url: "https://alvinchang.dev",
+  url: "https://d3vshoaib.dev",
   taglines: [
     "🚀 Coding Simplicity, Crafting Solutions: Bringing Ideas to Life, One Line at a Time. ✨ Let's transform challenges into digital possibilities with precision and creativity!",
     "🎨 Where Code Meets Creativity: Building Digital Experiences that Matter. 🌐 From intuitive interfaces to powerful backend systems, I create solutions that engage and inspire.",
     "💡 Innovating Beyond the Screen: Crafting Seamless Digital Journeys. 🌟 From concept to completion, let’s build the future, one pixel and one line of code at a time.",
   ],
-  titles: ["Full-Stack Developer", "NextJS Developer", "Wordpress Developer"],
+  titles: [
+    "Full-Stack Developer (TrustMe)",
+    "Open Source Contributor",
+    // "AI/ML ",
+  ],
   socialLinks: [
     {
       icon: <FaGithub />,
@@ -91,10 +95,6 @@ export const siteConfig = {
       {
         id: "technologies",
         label: "TECHNOLOGIES",
-      },
-      {
-        id: "blogs",
-        label: "BLOGS",
       },
       {
         id: "contact",
@@ -150,7 +150,7 @@ export const siteConfig = {
             name: "TypeScript",
           },
         ],
-        link: "https://alvinchang.dev",
+        link: "https://d3vshoaib.dev",
       },
       {
         title: "Genzify AI",
